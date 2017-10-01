@@ -1,0 +1,17 @@
+{
+  "name": "split-tree",
+  "version": "1.0.0",
+  "main": "SplitTree.js",
+  "author": "Norman Meier <norman.meier@tuta.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.56.0"
+  },
+  "scripts": {
+    "test": "babel-node ./test.js"
+  }
+}
