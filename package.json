@@ -6,12 +6,20 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
     "babel-plugin-transform-strict-mode": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-flow": "^6.23.0",
-    "flow-bin": "^0.56.0"
+    "flow-bin": "^0.56.0",
+    "jest": "^21.2.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-glsl-loader": "^1.0.1"
   },
   "scripts": {
-    "test": "babel-node ./test.js"
+    "develop": "webpack-dev-server",
+    "test": "jest --watch",
+    "flow-watch": "sh -c \"watch 'clear && flow'\""
   }
 }

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`constructor matches snapshots with various numbers 1`] = `
+Vector [
+  42,
+]
+`;
+
+exports[`constructor matches snapshots with various numbers 2`] = `
+Vector [
+  1,
+  2,
+]
+`;
+
+exports[`constructor matches snapshots with various numbers 3`] = `
+Vector [
+  78,
+  45,
+  12,
+]
+`;
+
+exports[`plusScalar adds the scalar to all components 1`] = `
+Vector [
+  142.42000000000002,
+  58.42,
+  121.42,
+  79.42,
+]
+`;

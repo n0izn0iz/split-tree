@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`constructor matches snapshots with various numbers 1`] = `
+AABB {
+  "max": Vector [
+    42.5,
+  ],
+  "min": Vector [
+    41.5,
+  ],
+}
+`;
+
+exports[`constructor matches snapshots with various numbers 2`] = `
+AABB {
+  "max": Vector [
+    1.5,
+    2.5,
+  ],
+  "min": Vector [
+    0.5,
+    1.5,
+  ],
+}
+`;
+
+exports[`constructor matches snapshots with various numbers 3`] = `
+AABB {
+  "max": Vector [
+    78.5,
+    45.5,
+    12.5,
+  ],
+  "min": Vector [
+    77.5,
+    44.5,
+    11.5,
+  ],
+}
+`;
+
+exports[`partitions matches snapshots with various numbers 1`] = `
+Array [
+  AABB {
+    "max": Vector [
+      42,
+    ],
+    "min": Vector [
+      41.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      42.5,
+    ],
+    "min": Vector [
+      42,
+    ],
+  },
+]
+`;
+
+exports[`partitions matches snapshots with various numbers 2`] = `
+Array [
+  AABB {
+    "max": Vector [
+      1,
+      2,
+    ],
+    "min": Vector [
+      0.5,
+      1.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      1.5,
+      2,
+    ],
+    "min": Vector [
+      1,
+      1.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      1,
+      2.5,
+    ],
+    "min": Vector [
+      0.5,
+      2,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      1.5,
+      2.5,
+    ],
+    "min": Vector [
+      1,
+      2,
+    ],
+  },
+]
+`;
+
+exports[`partitions matches snapshots with various numbers 3`] = `
+Array [
+  AABB {
+    "max": Vector [
+      78,
+      45,
+      12,
+    ],
+    "min": Vector [
+      77.5,
+      44.5,
+      11.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78.5,
+      45,
+      12,
+    ],
+    "min": Vector [
+      78,
+      44.5,
+      11.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78,
+      45.5,
+      12,
+    ],
+    "min": Vector [
+      77.5,
+      45,
+      11.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78.5,
+      45.5,
+      12,
+    ],
+    "min": Vector [
+      78,
+      45,
+      11.5,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78,
+      45,
+      12.5,
+    ],
+    "min": Vector [
+      77.5,
+      44.5,
+      12,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78.5,
+      45,
+      12.5,
+    ],
+    "min": Vector [
+      78,
+      44.5,
+      12,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78,
+      45.5,
+      12.5,
+    ],
+    "min": Vector [
+      77.5,
+      45,
+      12,
+    ],
+  },
+  AABB {
+    "max": Vector [
+      78.5,
+      45.5,
+      12.5,
+    ],
+    "min": Vector [
+      78,
+      45,
+      12,
+    ],
+  },
+]
+`;
+
+exports[`points matches snapshots with various numbers 1`] = `
+Array [
+  Vector [
+    41.5,
+  ],
+  Vector [
+    42.5,
+  ],
+]
+`;
+
+exports[`points matches snapshots with various numbers 2`] = `
+Array [
+  Vector [
+    0.5,
+    1.5,
+  ],
+  Vector [
+    1.5,
+    1.5,
+  ],
+  Vector [
+    0.5,
+    2.5,
+  ],
+  Vector [
+    1.5,
+    2.5,
+  ],
+]
+`;
+
+exports[`points matches snapshots with various numbers 3`] = `
+Array [
+  Vector [
+    77.5,
+    44.5,
+    11.5,
+  ],
+  Vector [
+    78.5,
+    44.5,
+    11.5,
+  ],
+  Vector [
+    77.5,
+    45.5,
+    11.5,
+  ],
+  Vector [
+    78.5,
+    45.5,
+    11.5,
+  ],
+  Vector [
+    77.5,
+    44.5,
+    12.5,
+  ],
+  Vector [
+    78.5,
+    44.5,
+    12.5,
+  ],
+  Vector [
+    77.5,
+    45.5,
+    12.5,
+  ],
+  Vector [
+    78.5,
+    45.5,
+    12.5,
+  ],
+]
+`;
