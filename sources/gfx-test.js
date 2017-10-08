@@ -65,6 +65,7 @@ class TimePlayer {
     if (this.position >= 1) {
       this.position -= 2;
       entities.forEach(entity => (entity.ghosted = false));
+      gamePlayer.position = gamePlayer.initialPosition;
     }
   }
 }
@@ -76,6 +77,7 @@ class GamePlayer {
   speed: number;
   constructor() {
     this.position = genRandomPosition(space.size - entityWidth)[0];
+    this.initialPosition = this.position;
     this.speed = 0.1;
   }
   get aABB() {
